@@ -14,7 +14,7 @@ const Cast = ({ id }) => {
         setIsResponse(false);
       });
     }
-  }, [isResponse]);
+  }, [isResponse, id]);
 
   return (
     <div>
