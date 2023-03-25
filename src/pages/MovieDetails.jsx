@@ -27,7 +27,7 @@ const MovieDetails = ({ getId }) => {
       setGenres(movie.genres);
     });
     getId(movieId);
-  }, [getId]);
+  }, [getId, movieId]);
 
   return (
     <div>
